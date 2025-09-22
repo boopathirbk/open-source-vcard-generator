@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Allow indexing: removed noindex/noai directives so the site can be crawled -->
+    <!-- Site metadata (SEO-ready) -->
         <title>vCard Generator</title>
     <meta name="description" content="A simple, open source and self hosted vCard (virtual contact card) generator web app that helps users create, preview, and download vCard (.vcf) files with contact details and a profile photo. Modern and supports Google Contacts, iOS Contacts and Outlook Contacts. Built with Alpine.js, Tailwind CSS, and a lightweight PHP for vCard generation.">
         <!-- Open Graph / Facebook -->
@@ -530,7 +530,7 @@
                         a.remove();
                         window.URL.revokeObjectURL(url);
                     } catch (err) {
-                        console.error('Error generating vCard:', err);
+                        // Error reported to the user; avoid noisy console logs in production
                         alert('There was an error generating the vCard. Please try again.');
                     } finally {
                         this.loading = false;
