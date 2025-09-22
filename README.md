@@ -1,6 +1,6 @@
  # Open Source vCard Generator ✨
 
- A simple, open source and self-hosted vCard (virtual contact card) generator web app that helps users create, preview, and download vCard (`.vcf`) files with contact details and a profile photo. Modern and supports Google Contacts, iOS Contacts and Outlook Contacts. Built with Alpine.js, Tailwind CSS, and a lightweight PHP endpoint for vCard generation.
+A simple, open source and self-hosted vCard (virtual contact card) generator web app that helps users create, preview, and download vCard (`.vcf`) files with contact details and a profile photo. Modern and supports Google Contacts, iOS Contacts and Outlook Contacts. Built with Alpine.js, Tailwind CSS, and a lightweight PHP endpoint for vCard generation.
 
  [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](./LICENSE) [![Works on PHP](https://img.shields.io/badge/PHP-compatible-777BB4?logo=php&logoColor=white)](#)
 
