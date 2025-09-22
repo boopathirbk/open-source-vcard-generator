@@ -17,9 +17,3 @@ The format is based on "Keep a Changelog" and this project follows Semantic Vers
 
 ### Added
 - Initial public release: basic UI (`index.html`) and vCard generation endpoint (`generate_vcard.php`)
-
-
----
-
-Notes:
-- If you keep a release history on GitHub releases, update this file when tagging new versions.
